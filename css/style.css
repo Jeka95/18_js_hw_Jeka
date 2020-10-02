@@ -1,0 +1,82 @@
+form {
+   max-width: 400px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin: 0 auto;
+   position: relative;
+}
+.inputlabel {
+   position: relative;
+}
+.placehold {
+   position: absolute;
+   left: 10px;
+   bottom: 18px;
+}
+.inputText {
+   font-size: 25px;
+   padding-top: 10px;
+   height: 25px;
+   width: 400px;
+   border-radius: 5px;
+   margin: 20px 0;
+   padding-left: 20px;
+   padding-top: 40px;
+   border: 2px solid;
+}
+
+.error {
+   border-radius: 5px;
+   background-color: red;
+   padding: 5px;
+   position: absolute;
+   left: 0%;
+   bottom: -8px;
+   opacity: 0;
+}
+.inputform {
+   position: relative;
+}
+
+.sub-wrap {
+   margin: 20px;
+}
+.submit {
+   height: 50px;
+   width: 400px;
+   color: ivory;
+   background-color: lightblue;
+   border-radius: 10px;
+   font-size: 25px;
+}
+.inputText:focus {
+   padding-top: 10px;
+   height: 25px;
+   width: 400px;
+   border-radius: 5px;
+   margin: 20px 0;
+   padding-left: 20px;
+   padding-top: 40px;
+}
+.inputText:focus + .placehold {
+   position: absolute;
+   left: 16px;
+   bottom: 35px;
+   font-size: 12px;
+}
+
+.greenok {
+   border: 4px solid green;
+}
+
+.redno {
+   border: 2px solid red;
+}
+.active {
+   position: absolute;
+   left: 16px;
+   bottom: 35px;
+   font-size: 12px;
+}
