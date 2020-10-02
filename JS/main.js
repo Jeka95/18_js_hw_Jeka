@@ -32,12 +32,10 @@ function ValidMail() {
   if (valid) {
     myMail.classList.add("greenok");
     emailerror.style.opacity = 0;
-    placehold[2].classList.add("active");
     myMail.classList.remove("redno");
   }
   else {
     emailerror.style.opacity = 1;
-    placehold[2].classList.add("active");
     myMail.classList.add("redno");
     myMail.classList.remove("greenok");
     checkInput();
